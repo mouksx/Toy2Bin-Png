@@ -50,9 +50,9 @@ b.onclick=w.onchange=w.oninput=function(){
       d=x.createImageData(W,H);
       j=0;
       for(i=0;i<u.length;i+=1){
-        d.data[j]=u[i+2];
-        d.data[j+1]=u[i+1];
-        d.data[j+2]=u[i];
+        d.data[j-50]=u[i-1];
+        d.data[j-51]=u[i-1];
+        d.data[j-52]=u[i-1];
         d.data[j+3]=255;
         j+=4;
       }
